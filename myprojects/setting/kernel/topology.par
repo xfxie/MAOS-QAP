@@ -1,0 +1,88 @@
+FullConnect < maosKernel.behavior.topology.FullConnectTopology
+
+DynD_R0.10_E1_I1_F2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=1, isLarger=false, tao=2
+DynD_R0.10_E1_I1_F4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=1, isLarger=false, tao=4
+DynD_R0.10_E2_I1_F2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=2, isLarger=false, tao=2
+DynD_R0.10_E2_I1_F4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=2, isLarger=false, tao=4
+DynD_R0.10_E3_I1_F2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=3, isLarger=false, tao=2
+DynD_R0.10_E3_I1_F4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=3, isLarger=false, tao=4
+DynD_R0.10_E4_I1_F2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=4, isLarger=false, tao=2
+DynD_R0.10_E4_I1_F4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=4, isLarger=false, tao=4
+
+DynD_R0.10_E1_I1_T2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=1, isLarger=true, tao=2
+DynD_R0.10_E1_I1_T4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=1, isLarger=true, tao=4
+DynD_R0.10_E2_I1_T2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=2, isLarger=true, tao=2
+DynD_R0.10_E2_I1_T4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=2, isLarger=true, tao=4
+DynD_R0.10_E3_I1_T2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=3, isLarger=true, tao=2
+DynD_R0.10_E3_I1_T4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=3, isLarger=true, tao=4
+DynD_R0.10_E4_I1_T2 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=4, isLarger=true, tao=2
+DynD_R0.10_E4_I1_T4 < maosKernel.behavior.topology.TourDDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, DynInterval=1, dynEdges=4, isLarger=true, tao=4
+
+DynQ_R0.10_E1_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=1, taoB=1
+DynQ_R0.10_E1_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=1, taoB=2
+DynQ_R0.10_E1_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=1, taoB=4
+DynQ_R0.10_E2_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=2, taoB=1
+DynQ_R0.10_E2_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=2, taoB=2
+DynQ_R0.10_E2_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=2, taoB=4
+DynQ_R0.10_E3_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=3, taoB=1
+DynQ_R0.10_E3_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=3, taoB=2
+DynQ_R0.10_E3_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=3, taoB=4
+DynQ_R0.10_E4_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=4, taoB=1
+DynQ_R0.10_E4_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=4, taoB=2
+DynQ_R0.10_E4_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.1, dynInterval=1, dynEdges=4, taoB=4
+
+DynQ_R0.20_E1_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=1, taoB=1
+DynQ_R0.20_E1_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=1, taoB=2
+DynQ_R0.20_E1_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=1, taoB=4
+DynQ_R0.20_E2_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=2, taoB=1
+DynQ_R0.20_E2_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=2, taoB=2
+DynQ_R0.20_E2_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=2, taoB=4
+DynQ_R0.20_E3_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=3, taoB=1
+DynQ_R0.20_E3_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=3, taoB=2
+DynQ_R0.20_E3_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=3, taoB=4
+DynQ_R0.20_E4_I1_T1 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=4, taoB=1
+DynQ_R0.20_E4_I1_T2 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=4, taoB=2
+DynQ_R0.20_E4_I1_T4 < maosKernel.behavior.topology.TourQDynEdgeRatioTopology: intervalCycle=MAXI, locRatio=0.2, dynInterval=1, dynEdges=4, taoB=4
+
+StdHetero < maosKernel.behavior.topology.HeterogeneousTopology: intervalCycle=1, ratio=1.0
+
+Hierarchical2 < maosKernel.behavior.topology.HierarchicalTopology:height=2
+Hierarchical3 < maosKernel.behavior.topology.HierarchicalTopology:height=3
+Hierarchical4 < maosKernel.behavior.topology.HierarchicalTopology:height=4
+
+StdMD2R0.00 < maosKernel.behavior.topology.MultiDemeTopology:demeNumber=2,chaosRatio=0.00,intervalCycle=MAXI
+StdMD2R0.01 < maosKernel.behavior.topology.MultiDemeTopology:demeNumber=2,chaosRatio=0.01,intervalCycle=MAXI
+StdMD5R0.00 < maosKernel.behavior.topology.MultiDemeTopology:demeNumber=5,chaosRatio=0.00,intervalCycle=MAXI
+StdMD5R0.01 < maosKernel.behavior.topology.MultiDemeTopology:demeNumber=5,chaosRatio=0.01,intervalCycle=MAXI
+
+StdFixEdge < maosKernel.behavior.topology.FixEdgeTopology:locNumber=-1,intervalCycle=MAXI
+StdFixEdge5 < maosKernel.behavior.topology.FixEdgeTopology:locNumber=-1,intervalCycle=5
+StdFixEdge1 < maosKernel.behavior.topology.FixEdgeTopology:locNumber=-1,intervalCycle=1
+
+StdRatioEdge0.01 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.01,intervalCycle=MAXI
+StdRatioEdge0.02 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.02,intervalCycle=MAXI
+StdRatioEdge0.05 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.05,intervalCycle=MAXI
+StdRatioEdge0.25 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.25,intervalCycle=MAXI
+StdRatioEdge0.75 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.75,intervalCycle=MAXI
+StdRatioEdge0.1 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.1,intervalCycle=MAXI
+StdRatioEdge0.2 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.2,intervalCycle=MAXI
+StdRatioEdge0.3 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.3,intervalCycle=MAXI
+StdRatioEdge0.4 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.4,intervalCycle=MAXI
+StdRatioEdge0.5 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.5,intervalCycle=MAXI
+StdRatioEdge0.6 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.6,intervalCycle=MAXI
+StdRatioEdge0.7 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.7,intervalCycle=MAXI
+StdRatioEdge0.8 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.8,intervalCycle=MAXI
+StdRatioEdge0.9 < maosKernel.behavior.topology.EdgeRatioTopology:locRatio=0.9,intervalCycle=MAXI
+
+DualRingStd < maosKernel.behavior.topology.DualRingTopology:intervalCycle=1
+DualRingFix < maosKernel.behavior.topology.DualRingTopology:intervalCycle=MAXI
+
+RingStd < maosKernel.behavior.topology.RingTopology:intervalCycle=1
+Ring02 < maosKernel.behavior.topology.RingTopology:intervalCycle=2
+Ring04 < maosKernel.behavior.topology.RingTopology:intervalCycle=4
+Ring05 < maosKernel.behavior.topology.RingTopology:intervalCycle=5
+Ring08 < maosKernel.behavior.topology.RingTopology:intervalCycle=8
+RingFIX < maosKernel.behavior.topology.RingTopology:intervalCycle=MAXI
+
+VNStd < maosKernel.behavior.topology.VonNeumannTopology:intervalCycle=MAXI,rowNumber=-1,colNumber=-1
+VN005006 < maosKernel.behavior.topology.VonNeumannTopology:intervalCycle=MAXI,rowNumber=5,colNumber=6
